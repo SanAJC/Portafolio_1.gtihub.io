@@ -518,6 +518,34 @@ footer{
     .main-btn{
         display: flex;
     }
+    .img-proyect {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .container{
+        height: 200px;
+    }
+    .container-proyects{
+        height: auto;
+        overflow-y: auto;
+    }
+    #img-market{
+        height: 150px;
+    }
+
+    .about {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .about img{
+        width: 100%;
+        height: auto;
+    }
 
 }
 
