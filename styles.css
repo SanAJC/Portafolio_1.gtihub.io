@@ -494,30 +494,7 @@ footer{
         width: 100%;
         height: auto;
     }
-}
 
-@media (max-width:850px){
-    .navbar{
-        display: none;
-    }
-
-}
-@media (max-width:500px){
-    :root{
-        --big-font: 2rem;
-        --p-font: 15px;
-        transition: .2s;
-    }
-
-    .btn{
-        padding: 9px 28px;
-    }
-}
-
-@media (max-width:433px){
-    .main-btn{
-        display: flex;
-    }
     .img-proyect {
         width: 100%;
         height: auto;
@@ -545,6 +522,30 @@ footer{
     .about img{
         width: 100%;
         height: auto;
+    }
+}
+
+@media (max-width:850px){
+    .navbar{
+        display: none;
+    }
+
+}
+@media (max-width:500px){
+    :root{
+        --big-font: 2rem;
+        --p-font: 15px;
+        transition: .2s;
+    }
+
+    .btn{
+        padding: 9px 28px;
+    }
+}
+
+@media (max-width:433px){
+    .main-btn{
+        display: flex;
     }
 
 }
